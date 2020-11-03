@@ -39,6 +39,7 @@ flutter 笔记
     backgroundColor: xx  
   )
 ## ThemeData详解
+*如果没有指定primaryColor，并且当前主题不是深色主题，那么primaryColor就会默认为primarySwatch指定的颜色。
 
 factory ThemeData({
   Brightness brightness, // 应用整体主题的亮度。用于按钮之类的小部件，以确定在不使用主色或强调色时选择什么颜色。  
