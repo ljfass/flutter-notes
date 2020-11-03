@@ -32,9 +32,9 @@ flutter 笔记
 ## 设置scaffold背景颜色：
   --全局：  
     theme: ThemeData(  
-      scaffoldBackgroundColor: xx  
+    scaffoldBackgroundColor: xx  
     )  
   -- 局部：  
-    Scaffold(  
-      backgroundColor: xx  
-    )
+  Scaffold(  
+    backgroundColor: xx  
+  )
