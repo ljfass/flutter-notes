@@ -16,25 +16,25 @@ flutter 笔记
   Container(
   height: xx,
   width: xx,
-  decoration: BoxDecoration(
-    borderRadius: BorderRadius.only(
-      topLeft: Radius.circular(63),
-      bottomLeft: Radius.circular(63),
+  decoration: BoxDecoration(  
+    borderRadius: BorderRadius.only(  
+      topLeft: Radius.circular(63),  
+      bottomLeft: Radius.circular(63),  
     ),
-    image: DecorationImag(
-      alignment: Alignment.centerLeft,
-      fit: BoxFit.cover,
-      image: AssetImage("assets/images/img.png"),
+    image: DecorationImag(  
+      alignment: Alignment.centerLeft,  
+      fit: BoxFit.cover,  
+      image: AssetImage("assets/images/img.png"),  
     )
   )
 )
 
 ## 设置scaffold背景颜色：
-  --全局：
-    theme: ThemeData(
-      scaffoldBackgroundColor: xx
-    )
-  -- 局部：
-    Scaffold(
-      backgroundColor: xx
+  --全局：  
+    theme: ThemeData(  
+      scaffoldBackgroundColor: xx  
+    )  
+  -- 局部：  
+    Scaffold(  
+      backgroundColor: xx  
     )
