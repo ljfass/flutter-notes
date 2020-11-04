@@ -147,6 +147,23 @@ factory ThemeData({
   CupertinoThemeData cupertinoOverrideTheme   
   
 })
+## Map（集合）
+  map通常也被称之为字典或者hash，也是一个无序的集合，里面包含一个key-value对。  
+  //方式一：  
+  var map1 = {  
+     "one" : [1, "strValue", true],  
+     "two" : "twoValue",  
+     };  
+     //创建不可变Map  
+     var mapConst = const {  
+     "one" : [1, "strValue", true],  
+     "two" : "twoValue",  
+     };  
+     //方式二：未指定泛型类型  
+     var map2 = new Map();  
+     //方式二：指定泛型类型  
+     var map3 = new Map<int, String>();
+     
 ## asMap entries map
   List<dynamic> _icons;
   _icons.asMap().entries.map((MapEntry map) { print(map.key);print(map.value) })
