@@ -167,3 +167,6 @@ factory ThemeData({
 ## asMap entries map
   List<dynamic> _icons;
   _icons.asMap().entries.map((MapEntry map) { print(map.key);print(map.value) })
+  
+## SizedBox.shrink()
+  Creates a box that will become as small as its parent allows.
