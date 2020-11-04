@@ -164,7 +164,7 @@ factory ThemeData({
      //方式二：指定泛型类型  
      var map3 = new Map<int, String>();
      
-## asMap entries map
+## asMap entries map用法
   List<dynamic> _icons;
   _icons.asMap().entries.map((MapEntry map) { print(map.key);print(map.value) })
   
